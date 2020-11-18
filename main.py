@@ -20,7 +20,7 @@ crypto.iconbitmap('Favicon.ico')
 def my_portfolio():
     # Calling API
     api_request = requests.get(
-        "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?start=1&limit=10&convert=USD""&CMC_PRO_API_KEY=76c85d53-fa4d-40fd-a6c8-ff4417a94d44")
+        "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?start=1&limit=10&convert=USD""&CMC_PRO_API_KEY")
 
     # Loading Stored Data
     api = json.loads(api_request.content)
